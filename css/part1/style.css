@@ -1,0 +1,44 @@
+/*Selector {
+	Property: value;
+}*/
+
+body {
+	background-image: url(alexander-andrews-520231-unsplash.jpg);
+	background-size: cover;
+}
+
+h2,p {
+	color: red;
+	text-align: center;
+	border: 5px dashed rgb(238,219,0);'
+	cursor: wait;
+}
+
+p {
+	color: blue;
+}
+
+/*cascading effect*/
+p {
+	color: orange;
+}
+
+.webtext {
+	color: blue;
+}
+
+.active {
+	border: 5px solid green;
+}
+
+#div1 { 
+	background-color: grey;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+	color: white;
+	font-size: 2em;
+
+}
