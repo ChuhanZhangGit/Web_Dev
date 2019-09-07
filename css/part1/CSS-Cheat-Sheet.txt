@@ -7,15 +7,15 @@ Reference:
 Cascading Style Sheets at the most basic level it indicates that the order of CSS rules matter. 
 
 
-.class
-#id
-*
-element
-element, element
-element element
-element > element
-element + element
-:hover
+.class select by class, same class allow for multiple element
+#id select by id, no same id can assign to the same element
+*  select all element
+element 
+element, element two element
+element element  parent element and child element style all nested the child element
+element > element style only the direct children 
+element + element select element right after first element
+:hover change style on hover of the mouse
 :last-child
 :first-child
 !important (not recommended)
@@ -23,5 +23,16 @@ element + element
 
 What seletors win out in the cascade depends on:
 -Specificity
+
+inline html style has highest priority 
 -Importance
 -Source Order
+
+
+em is relative to px of parent or ancester class px
+
+First request HTML file 
+Then CSS file 
+CSS is render blocking file. 
+- have own font file that don't retrieve from web
+- keep css file small

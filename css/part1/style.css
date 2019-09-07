@@ -2,17 +2,30 @@
 	Property: value;
 }*/
 
+* {
+	text-align: right
+}
 body {
-	background-image: url(alexander-andrews-520231-unsplash.jpg);
+	background-image: url(nature.jpg);
+	background-repeat: no-repeat;
 	background-size: cover;
 }
 
-h2,p {
-	color: red;
+p {
+	color: black;
 	text-align: center;
-	border: 5px dashed rgb(238,219,0);'
+	border: 5px dashed rgb(34, 32, 16);
 	cursor: wait;
 }
+
+p {text-decoration: underline;
+text-transform: uppercase;
+line-height: 40px;
+font-style: italic;
+font-weight: bold;
+font-size: 150%;
+font-family:'Chilanka', cursive;
+;}
 
 p {
 	color: blue;
@@ -20,11 +33,16 @@ p {
 
 /*cascading effect*/
 p {
-	color: orange;
+	color:darkblue;
 }
 
-.webtext {
-	color: blue;
+img {float: left;}
+
+.webtext:last-child {
+	color: black;
+	text-align: center;
+	border: 5px dashed rgb(34, 32, 16);
+	cursor: wait;
 }
 
 .active {
@@ -32,7 +50,7 @@ p {
 }
 
 #div1 { 
-	background-color: grey;
+	background-color: green;
 }
 
 li {
